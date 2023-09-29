@@ -405,73 +405,86 @@ img {
 
 /* ------------------------------  GRIDBoxes Section Styles ------------------------------  */
 
+
 .grid-section {
   display: grid;
-  gap: 0;
   grid-template-columns: repeat(3, 334px);
   grid-template-rows: repeat(2, 340px);
+  gap: 0; 
+}
+
+.number{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.397);
 }
 
 .square {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  height: 340px;
-  justify-content: center;
+  width: 334px; 
+  height: 340px; 
+  flex-shrink: 0; 
   padding: 20px;
+  box-sizing: border-box;
   text-align: center;
-  width: 334px;
+  
+
 }
 
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.text1{
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+  font-size: 38px;
+
+}
+/* Color the squares individually */
 .square:nth-child(1) {
-  background-color: var(--color6);
-  color: #000;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 800;
-  letter-spacing: -0.9px;
-  line-height: 100%;
+  background-color: #C7DDEA;
 }
 
-.square:nth-child(2),
-.square:nth-child(3),
-.square:nth-child(4),
-.square:nth-child(5),
-.square:nth-child(6) {
-  background-color: var(--color1);
-  color: rgba(0, 0, 0, 0.70);
-  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: center;
-}
-
-.square:nth-child(2),
-.square:nth-child(4),
-.square:nth-child(6) {
-  background-color: var(--color1);
+.square:nth-child(2) {
+  background-color: #fff;
 }
 
 .square:nth-child(3) {
-  background-color: var(--color2);
+  background-color: #EBEBEB;
+}
+
+.square:nth-child(4) {
+  background-color: #fff;
 }
 
 .square:nth-child(5) {
-  background-color: var(--color7);
+  background-color: #F17949;
+}
+
+.square:nth-child(6) {
+  background-color: #fff;
 }
 
 /* ------------------------------  UP Section Styles ------------------------------  */
 
 .up {
-  align-items: center;
-  background-color: var(--color5);
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   gap: 5px;
-  height: 68px;
+  background-color: #A9A19E;
+  height: 80px;
+  display: flex;
   justify-content: center;
+  align-items: center;
+
+}
+
+.arrow{
+margin-top: -2.5rem;
 }
 
 /* ------------------------------  Footer Styles ------------------------------  */
