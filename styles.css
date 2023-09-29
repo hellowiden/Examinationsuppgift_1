@@ -423,20 +423,27 @@ img {
   justify-content: center;
   margin-top: 8rem;
   color: rgba(0, 0, 0, 0.80);
-text-align: center;
-font-family: Frank Ruhl Libre;
-font-size: 45px;
-font-style: normal;
-font-weight: 900;
-line-height: 100%; /* 45px */
-letter-spacing: -0.9px;
+  text-align: center;
+  font-family: Frank Ruhl Libre;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 45px */
+  letter-spacing: -0.9px;
 }
 
 .text1{
   display: flex;
   justify-content: center;
   margin-top: 8rem;
-  font-size: 38px;
+  color: rgba(0, 0, 0, 0.70);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  align-items: center;
+  justify-content: center;
 
 }
 /* Color the squares individually */
