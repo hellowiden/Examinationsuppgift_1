@@ -348,13 +348,11 @@ img {
   background: var(--color7);
 }
 
-/* .card .imgContainer img {
+.card .imgContainer img {
   height: auto;
   max-width: 100%;
-} */
+} 
 
-
-/* .card .imgContainer */ 
 .img-two .img-three {
 
   width: 105px; 
