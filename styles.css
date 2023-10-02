@@ -348,9 +348,39 @@ img {
   background: var(--color7);
 }
 
-.card .imgContainer img {
+/* .card .imgContainer img {
   height: auto;
   max-width: 100%;
+} */
+
+
+/* .card .imgContainer */ 
+.img-two .img-three {
+
+  width: 105px; 
+    display: block; 
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 10%;
+    margin-bottom: 15px;
+}
+
+
+.imgContainer .img-one{
+  position: absolute;
+  margin-top: 240px;
+  height: 200%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.card-one .imgContainer img {
+
+  margin-bottom: 200px;
+  height: 100%;
+  width: 100%; 
+
 }
 
 /* ------------------------------  About Section Styles ------------------------------  */
